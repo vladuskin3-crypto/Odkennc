@@ -33,8 +33,8 @@ from aiogram.types import CallbackQuery, ChatMemberUpdated, Message
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # ---------------- config ----------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")  # FILL: токен от @BotFather
-ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()}  # FILL: твой tg id (@userinfobot)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8691663998:AAH6pqBSr6hXs0XJEAxqlBlIyLGsIz8v-C8")  # FILL: токен от @BotFather
+ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "8874871486").split(",") if x.strip()}  # FILL: твой tg id (@userinfobot)
 kDataFile = Path("data.json")
 kSendDelay = 0.6  # пауза между чатами внутри одного круга, сек (лимиты telegram)
 kIntervals = [  # (подпись, секунды); 0 = один раз
